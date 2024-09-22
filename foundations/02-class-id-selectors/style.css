@@ -1,4 +1,13 @@
-.general { /* Added a general class, to have a light pink background and the fonts as instructed */
+.general { /* Added a class 'general', to have a light pink background and the fonts as instructed */
     background-color: rgb(255,192,203);
     font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.special { /* Added a class 'special' to have the font size of 24px*/
+    font-size: 24px;
+}
+
+#first { /* Added the id named 'first', which has blue font color and 36px font size */
+    color: rgb(0,0,255);
+    font-size: 36px;
 }
