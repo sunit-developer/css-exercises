@@ -1,0 +1,4 @@
+.general { /* Added a general class, to have a light pink background and the fonts as instructed */
+    background-color: rgb(255,192,203);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
