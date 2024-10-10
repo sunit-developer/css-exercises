@@ -11,3 +11,9 @@
     color: rgb(0,0,255);
     font-size: 36px;
 }
+
+#second { /* Added the id named 'second', which has light blue background color, font size of 24px and font weight as bold */
+    background-color: rgb(125,255,125);
+    font-size: 24px;
+    font-weight: bold;
+}
