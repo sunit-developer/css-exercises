@@ -1,7 +1,14 @@
 .first { /* Added two classes in the css file */
-    
+    background-color: #000000; /* Unique properties */
+    color: #FFFFFF;
 }
 
 .second {
+    background-color: #FFFF00; /* Unique properties */
+}
 
+.first, /* Grouping Selector for Common Properties */
+.second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", "sans-serif";
 }
