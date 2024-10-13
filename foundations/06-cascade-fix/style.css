@@ -8,28 +8,32 @@ body {
   font-weight: 800;
 }
 
+/* Interchanged the positions of "para" and "small-para" declarations, so that the second paragraph can have a smaller fonts property applied */
+.para {
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* Edited this selector, so that it becomes id selector as opposed to a class selector, to apply the necessary properties to the green "Confirm" button */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+/* No need to change this "button" class selector. This ensures the white "Cancel" button has the necessary properties */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+/* Changed this selector to have "div", "text", and "child", i.e., one element selector and two class selectors, respectively */
+div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
