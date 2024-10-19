@@ -24,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px; /* Div One and Div Three have 32px between their text and border. */
-  margin-left: 0px;
+  margin-left: 330px; /* Div Three is aligned to the right.
+   & Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.).  */
 }
