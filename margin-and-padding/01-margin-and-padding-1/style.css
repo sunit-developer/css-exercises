@@ -7,7 +7,7 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
+  padding: 32px; /* Div One and Div Three have 32px between their text and border. */
   margin: 0px;
 }
 
@@ -23,6 +23,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
+  padding: 32px; /* Div One and Div Three have 32px between their text and border. */
   margin-left: 0px;
 }
