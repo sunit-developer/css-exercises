@@ -12,10 +12,12 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
 }
 
 .button-container {
