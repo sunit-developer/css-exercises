@@ -27,9 +27,7 @@ body {
   background: #e3f4ff;
 
   /* Everything inside the `.button-container` section is centered, and there is 8px padding. */
-  display: inline-block;
   text-align: center;
-  vertical-align: middle;
   padding: 8px;
 }
 
