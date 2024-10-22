@@ -13,6 +13,7 @@ body {
 .title {
   background: #e3f4ff;
   margin-bottom: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
+  font-size: 16px; /* The title of the card uses a 16px font. */
 }
 
 .content {
