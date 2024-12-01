@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  
+  /* Applied display: flex property to the main header section */
+  display: flex;
+  
 }
 
 .logo {
@@ -14,6 +18,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* CONCEPT: "Flexbox affects only the direct children of the container where display: flex is applied." */
+  /* That's why I applied the display: flex property to this uls, so that I can change the default display: block property, and I can horizontally align all the ONE...SIX links */
+  display: flex;
+  
 }
 
 a {
