@@ -3,6 +3,13 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+
+  /* Assigning flex as the display style to the parent container */
+  display: flex; 
+
+  /* 'justify-content' and 'align-items' - both of these properties must be applied to the parent container */
+  justify-content: center; /* To center the box on the primary (horizontal) axis */
+  align-items: center; /* To center the box on the cross (vertical) axis */
 }
 
 .box {
@@ -12,4 +19,6 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  
+  
 }
