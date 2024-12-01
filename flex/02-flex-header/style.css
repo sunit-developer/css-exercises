@@ -4,7 +4,9 @@
   
   /* Applied display: flex property to the main header section */
   display: flex;
-  
+
+  /* Left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized. */
+  justify-content: space-between;  
 }
 
 .logo {
@@ -18,10 +20,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
   /* CONCEPT: "Flexbox affects only the direct children of the container where display: flex is applied." */
   /* That's why I applied the display: flex property to this uls, so that I can change the default display: block property, and I can horizontally align all the ONE...SIX links */
-  display: flex;
-  
+  display: flex;  
 }
 
 a {
