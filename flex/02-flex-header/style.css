@@ -6,7 +6,10 @@
   display: flex;
 
   /* Left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized. */
-  justify-content: space-between;  
+  justify-content: space-between;
+  
+  /* List items are centered vertically inside the header */
+  align-items: center;
 }
 
 .logo {
