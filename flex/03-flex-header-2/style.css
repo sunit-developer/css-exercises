@@ -18,6 +18,9 @@ body {
 
   /* Everything is centered vertically inside the header */
   align-items: center;
+
+  /* There is 8px space between everything and the edge of the header */
+  padding: 8px;
 }
 
 .profile-image {
