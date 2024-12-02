@@ -21,6 +21,9 @@ body {
 
   /* There is 8px space between everything and the edge of the header */
   padding: 8px;
+
+  /* There is 16px between each item on both sides of the header. */
+  gap: 16px;
 }
 
 .profile-image {
