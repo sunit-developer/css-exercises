@@ -9,9 +9,10 @@
   justify-content: space-between;
   
   /* List items are centered vertically inside the header */
-  align-items: center;
-
+  align-items: center; 
   
+  /* There is space between all items and the edge of the header - Adding 8px padding to achieve this goal */
+  padding: 8px;
 }
 
 .logo {
@@ -20,7 +21,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 10px;
 }
 
 ul {
@@ -30,9 +30,14 @@ ul {
   /* CONCEPT: "Flexbox affects only the direct children of the container where display: flex is applied." */
   /* That's why I applied the display: flex property to this uls, so that I can change the default display: block property, and I can horizontally align all the ONE...SIX links */
   display: flex; 
+
   
-  /* Adding a 20px gap between the ONE...SIX links */
-  gap: 20px;
+  /* Removing the default margin and padding that gets applied to the 'ul' elements by the user agent (browser), so that it doesn't interfere with our flexbox styling (Worked on the hint) */
+  margin: 0;
+  padding: 0;
+  
+  /* Adding a 8px gap between the ONE...SIX links */
+  gap: 8px;  
 }
 
 a {
