@@ -10,6 +10,8 @@
   
   /* List items are centered vertically inside the header */
   align-items: center;
+
+  
 }
 
 .logo {
@@ -18,6 +20,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
 
 ul {
@@ -26,7 +29,10 @@ ul {
 
   /* CONCEPT: "Flexbox affects only the direct children of the container where display: flex is applied." */
   /* That's why I applied the display: flex property to this uls, so that I can change the default display: block property, and I can horizontally align all the ONE...SIX links */
-  display: flex;  
+  display: flex; 
+  
+  /* Adding a 20px gap between the ONE...SIX links */
+  gap: 20px;
 }
 
 a {
