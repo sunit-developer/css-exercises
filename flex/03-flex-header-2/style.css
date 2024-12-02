@@ -15,6 +15,9 @@ body {
   
   /* To put everything in one horizontal line */
   display: flex;
+
+  /* Everything is centered vertically inside the header */
+  align-items: center;
 }
 
 .profile-image {
