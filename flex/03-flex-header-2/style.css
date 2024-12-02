@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  
+  /* To put everything in one horizontal line */
+  display: flex;
 }
 
 .profile-image {
@@ -45,4 +48,7 @@ a {
 
 ul {
   list-style-type: none;
+  
+  /* To put all the three links in one horizontal line */
+  display: flex;
 }
