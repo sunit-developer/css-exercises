@@ -40,8 +40,11 @@ body {
 .right-side-items {
   display: flex;
 
-    /* There is 16px between each item on both sides of the header. This is to make a gap of 16px between the button and the profile image */
-    gap: 16px;
+  /* There is 16px between each item on both sides of the header. This is to make a gap of 16px between the button and the profile image */
+  gap: 16px;
+
+  /* To vertically center the button & profile image */
+  align-items: center;
 }
 
 .profile-image {
