@@ -16,14 +16,29 @@ body {
   /* To put everything in one horizontal line */
   display: flex;
 
+  /* Comment A - To make the left-side-items aligned on the left side, and right-side-items aligned on the right side of the header */
+  justify-content: space-between;
+
   /* Everything is centered vertically inside the header */
   align-items: center;
 
   /* There is 8px space between everything and the edge of the header */
   padding: 8px;
+}
 
-  /* There is 16px between each item on both sides of the header. */
-  gap: 16px;
+/* Comment A - To make the left-side-items aligned on the left side, and right-side-items aligned on the right side of the header */
+.left-side-items {
+  display: flex;
+
+    /* There is 16px between each item on both sides of the header. This is to make 16px gap between the LOGO and Three Links */
+    gap: 16px;
+}
+
+.right-side-items {
+  display: flex;
+
+    /* There is 16px between each item on both sides of the header. This is to make a gap of 16px between the button and the profile image */
+    gap: 16px;
 }
 
 .profile-image {
@@ -60,4 +75,7 @@ ul {
   
   /* To put all the three links in one horizontal line */
   display: flex;
+
+  /* There is 16px between each item on both sides of the header. This is to make 16px gap between link-one, link-two, link-three */
+    gap: 16px;
 }
