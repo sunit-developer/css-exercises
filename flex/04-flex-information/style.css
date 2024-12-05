@@ -7,6 +7,12 @@ img {
   height: 100px;
 }
 
+/* Made this container 'flex' and horizontally centered the title */
+.title-flex-container {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
