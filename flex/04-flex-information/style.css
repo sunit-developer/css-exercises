@@ -18,6 +18,10 @@ img {
   font-weight: 900;
 }
 
+.content-flex-container {
+  display: flex;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
