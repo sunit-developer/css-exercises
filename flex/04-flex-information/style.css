@@ -5,12 +5,14 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 /* Made this container 'flex' and horizontally centered the title */
 .title-flex-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .title {
@@ -20,6 +22,21 @@ img {
 
 .content-flex-container {
   display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column; /* Stack the image and description vertically */
+  flex-wrap: wrap; /* The image description wraps */
+  justify-content: center;
+  align-self: center;
+}
+
+.item > .text {
+  width: 200px; /* The items are only 200px wide and the text wraps. Applying 200px only to the description text, since if I apply 200px to the images, they get stretched */
+  text-align: center;
 }
 
 /* do not edit this footer */
