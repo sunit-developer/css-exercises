@@ -13,6 +13,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  
+  /* There is 32px between the title and the 'items.' */
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
