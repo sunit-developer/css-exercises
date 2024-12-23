@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+  /* The text-align CSS property sets the horizontal alignment of the inline-level content inside a block element or table-cell box. This means it works like vertical-align but in the horizontal direction. Applied this to the body (which is a block level element), so that all the inline elements inside it will be horizontally centered. */
+  text-align: center; 
 }
 
 img {
