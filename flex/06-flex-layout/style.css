@@ -7,6 +7,16 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* To remove the bullets from all the unordered list items, i.e., links */
+ul {
+  list-style: none;
+}
+
+/* To remove the underline from all the links */
+a {
+  text-decoration: none;
+}
+
 img {
   width: 600px;
 }
