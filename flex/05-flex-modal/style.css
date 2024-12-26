@@ -20,6 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* To put the icon & the rest of the stuff side-by-side */
+  display: flex;
+  /* There is padding around the edge of the modal */
+  padding: 16px;
+  /* There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same) */
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +39,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* To prevent the shrinking of the icon, doesn't matter how small the viewport gets */
+  flex-shrink: 0;
+}
+
+.header {
+  /* To put the header text & X button side-by-side */
+  display: flex;
+  /* To push the X button on the right side */
+  justify-content: space-between;
+  /* The close button is vertically aligned with the header, and aligned in the top-right of the card. */
+  align-items: center;
+  /* To make the header text bold */
+  font-weight: bold;
+  /* To make the header text larger than the normal text */
+  font-size: large;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -48,6 +70,11 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+/* To add the gap between the text and the 'Continue' & 'Cancel' buttons */
+.text {
+  margin-bottom: 16px;
 }
 
 button {
