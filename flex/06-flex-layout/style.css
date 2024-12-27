@@ -5,11 +5,17 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-/* To remove the bullets from all the unordered list items, i.e., links */
+
 ul {
+  /* To remove the bullets from all the unordered list items, i.e., links */
   list-style: none;
+  /* To remove the browser's default margin & padding that gets applied to the ul element by default */
+  margin: 0;
+  padding: 0;
 }
 
 /* To remove the underline from all the links */
@@ -26,6 +32,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* The buttons have an appropriate amount of padding */
+  padding: 8px 16px;
 }
 
 input {
@@ -33,4 +41,42 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header, .footer {
+  display: flex;
+  /* The links in the header and footer are pushed to either side */
+  justify-content: space-between;
+  /* The header and footer have padding */
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* To align items along the cross axis (i.e., horizontal axis) */
+  align-items: center;
+  /* To align items along the main axis (i.e., vertical axis) */
+  justify-content: center;
+  /* There is space between the logo, input and buttons */
+  gap: 16px;
+  /* Shorthand property to set flex-grow: 1, flex-shrink: 1, flex-basis: 0%, so that the content expands to the full height of the viewport, and the footer is at the bottom of the page */
+  flex: 1;
+}
+
+.footer {
+  /* The footer has a light gray background (`#eeeeee`) */
+  background-color: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  /* There is space between the links in the header and footer */
+  gap: 16px;
+}
+
+.right-links {
+  display: flex;
+  /* There is space between the links in the header and footer */
+  gap: 16px;
 }
